@@ -1,0 +1,54 @@
+
+a{margin-top: 3px;
+    color: blue;
+text-decoration-line: none;
+color:darkgreen;
+}
+h1{
+    color: darkgreen;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    border-bottom: 5px solid yellowgreen;
+}
+
+#grid ol{
+    padding-top: 3px;
+    padding-left: 25px;
+    text-align: left;
+    margin: 0px;
+    width: 280px;
+    border-right: 5px solid yellowgreen;
+}
+
+#grid{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 322px 1fr;
+}
+
+body{margin: 0px;
+    background-image: url(https://img.freepik.com/free-photo/paper-texture_23-2147786525.jpg?w=1380&t=st=1718730490~exp=1718731090~hmac=56b714abb563bb8198fb2446aabca3eaa0937c975260861b5ff6dd52d47bdacc);
+    background-size: cover;
+}
+
+@media(max-width : 800px){
+    #grid{
+        display: block;
+    }
+    #grid ol{
+
+        border-right: none;
+    }
+    h1{
+
+        border-bottom: none;
+    }
+}
+
+li{
+    margin-top: 8px;
+    color: green;
+}
+
+
